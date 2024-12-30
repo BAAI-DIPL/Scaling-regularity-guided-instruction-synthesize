@@ -46,8 +46,7 @@ def analyze_grid_distribution(points, grid_size=100):
 
 def main():
     # 输入文件路径
-    # input_file = '/share/project/chengweiwu/code/code_synthesis/Scaling_regularity_guided_instruction_synthesize/data/AAAI_set/scalinglaw/AAAI_set_900w_pipei_304w_with_coords_sort_scalinglaw_20w_100X100.jsonl'
-    input_file = '/share/project/chengweiwu/code/code_synthesis/Scaling_regularity_guided_instruction_synthesize/data/AAAI_set/AAAI_set_900w_pipei_304w_with_coords_sort.jsonl'
+    input_file = 'AAAI_set_900w_pipei_304w_with_coords_sort.jsonl'
 
     # 加载数据
     data = load_jsonl(input_file)
